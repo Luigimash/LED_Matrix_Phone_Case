@@ -1,0 +1,7 @@
+### Footprint positions - created on 2025-10-31T22:10:41-0400 ###
+### Printed by KiCad version 9.0.1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                             PosX       PosY       Rot  Side
+USBM1     ~         USB-C_Male_918-118A2021Y40006   141.7500  -101.2000    0.0000  bottom
+## End

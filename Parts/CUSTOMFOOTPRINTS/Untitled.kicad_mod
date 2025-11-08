@@ -1,0 +1,183 @@
+(footprint "Untitled"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7239741f-7b43-4ccd-a23f-8367ef513fc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2bbe89d4-1540-44c6-aa83-075c4874da4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc9954e4-573f-44b7-b684-faaf70dff120")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad432b3d-7121-462f-be23-e7d8264841c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.7 -8.85)
+		(end 6.3 -8.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "3203cb66-5c74-44b1-b5e6-d68cd511cf5a")
+	)
+	(fp_line
+		(start -4.7 -8.05)
+		(end -4.7 -8.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "ac46c315-1552-4b2d-b51c-5497223bd597")
+	)
+	(fp_line
+		(start -4.7 -8.05)
+		(end 1.6 -8.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "acb1bf74-6838-43bf-a724-608b0eba5605")
+	)
+	(fp_line
+		(start -4.7 -5.35)
+		(end -4.7 -8.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "9c5b2770-82fd-413b-9a1d-60149807c6fe")
+	)
+	(fp_line
+		(start -4.7 -5.35)
+		(end -4.7 1.245139)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "4b01c046-35be-45cc-a28f-d181f836ad34")
+	)
+	(fp_line
+		(start -4.7 1.25)
+		(end -4.7 10.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "7ae34c84-d2b7-4925-ac03-b3c4068f3ff7")
+	)
+	(fp_line
+		(start 1.6 -8.05)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "7d4fa322-05bc-42dd-8370-7b30324fbb23")
+	)
+	(fp_line
+		(start 1.6 1.25)
+		(end -4.7 1.245139)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "aa43262b-96f5-416d-b309-9706b0e87ecd")
+	)
+	(fp_line
+		(start 6.3 -8.85)
+		(end 6.3 10.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "d212dafa-c67f-4080-938e-6c3b9e102001")
+	)
+	(fp_line
+		(start 6.3 10.15)
+		(end -4.7 10.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "28c3f3c8-e2dd-41e3-800d-71f2edcc82b4")
+	)
+	(fp_text user "Traces and ground plane must sit outside this zone"
+		(at 2.7 -9.45 270)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "7eaf9429-ae4c-4b78-9599-734ccf8658a6")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "be2da1ba-773b-4dd9-aa8e-75a7db0d8d00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

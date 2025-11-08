@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "USB-C Female HX TYPE-C 6P SY")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/Parts/USB-C Female HX TYPE-C 6P SY.elibz")(options "")(descr ""))
+  (lib (name "USB-C Male 918-118A2021Y40006")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/Parts/USB-C Male 918-118A2021Y40006.elibz")(options "")(descr ""))
+  (lib (name "SSP1117-3.3V_Voltage_Regulator")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/Parts/SSP1117-3.3V_Voltage_Regulator.elibz")(options "")(descr ""))
+)

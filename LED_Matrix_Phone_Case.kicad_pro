@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.95,
-          "width": 0.875
+          "height": 2.5,
+          "width": 2.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,56 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|112451601|139867400|7dc54f9a-8c2f-4e28-abaa-88c3607ac440|3b128c68-8db4-47ef-b28e-9c921359ac20",
+          ""
+        ],
+        [
+          "clearance|112851600|139867400|3b128c68-8db4-47ef-b28e-9c921359ac20|ce9a826b-5f3f-47da-ab4b-c3ce31d635e6",
+          ""
+        ],
+        [
+          "clearance|113251599|139867400|ce9a826b-5f3f-47da-ab4b-c3ce31d635e6|eefe5798-7810-49f3-91d8-0045a9444e8b",
+          ""
+        ],
+        [
+          "clearance|113651601|139867400|eefe5798-7810-49f3-91d8-0045a9444e8b|46f59401-4eee-449e-b53c-72b2082ed4da",
+          ""
+        ],
+        [
+          "clearance|114051600|139867400|46f59401-4eee-449e-b53c-72b2082ed4da|a3f3303f-9085-497a-836b-6b7889068f34",
+          ""
+        ],
+        [
+          "clearance|114451599|139867400|a3f3303f-9085-497a-836b-6b7889068f34|b2239802-ee6a-44fa-9ad0-445cb64877a4",
+          ""
+        ],
+        [
+          "clearance|114851601|139867400|b2239802-ee6a-44fa-9ad0-445cb64877a4|84960ea1-b5a3-462d-9ce5-cae1e3fdece4",
+          ""
+        ],
+        [
+          "clearance|115251600|139867400|84960ea1-b5a3-462d-9ce5-cae1e3fdece4|32f609f4-6fc7-4b85-a1d1-cf2e54e18820",
+          ""
+        ],
+        [
+          "clearance|115651599|139867400|32f609f4-6fc7-4b85-a1d1-cf2e54e18820|098bee04-6154-4891-a7f8-0dee02dcdbe4",
+          ""
+        ],
+        [
+          "clearance|115756250|115706250|60d526d4-ea15-4bcc-9897-2e42d2cd5b84|ec209357-c12e-4df9-b5d0-a46e32bb22b1",
+          ""
+        ],
+        [
+          "clearance|116051601|139867400|098bee04-6154-4891-a7f8-0dee02dcdbe4|a0de18f9-de58-4c11-a6ab-f32a96da4c92",
+          ""
+        ],
+        [
+          "track_dangling|131250000|132962500|e1f074fd-8599-44ea-b6d2-aa0958557c6d|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -502,7 +551,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "FABRICATION_OUTPUTS/main_display_board/gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
