@@ -31,9 +31,9 @@ For each input file:
 5. **Convert** - Grayscale conversion (8-bit, 0-255 range)
 6. **Export** - Save each frame as separate bitmap file (PNG) or ASCII PGM text
 
-### Output Structure
+### Output Structure (default)
 ```
-output/
+media_processor/output/
 ├── <filename>/
 │   ├── frame_0001.png / frame_0001.pgm
 │   ├── frame_0002.png / frame_0002.pgm
@@ -94,9 +94,8 @@ software/
 │   ├── processor.py       # Resize, grayscale conversion
 │   ├── exporter.py        # Save frames to disk
 │   └── utils.py           # Helper functions
-├── output/                # Generated frames directory
+│   └── output/            # Generated frames directory (default target)
 ├── tests/                 # Unit tests (future)
-├── main.py                # CLI entry point
 ├── requirements.txt       # Dependencies
 └── MEDIA_PROCESSOR.md     # This document
 ```

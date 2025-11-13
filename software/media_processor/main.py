@@ -32,8 +32,11 @@ def parse_args(argv: Iterable[str] | None = None) -> argparse.Namespace:
     parser.add_argument(
         "-o",
         "--output",
-        default="output",
-        help="Output directory for generated frames and metadata (default: ./output).",
+        default="media_processor/output",
+        help=(
+            "Output directory for generated frames and metadata "
+            "(default: ./media_processor/output)."
+        ),
     )
     parser.add_argument(
         "--width",

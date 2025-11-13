@@ -48,4 +48,5 @@ Options:
 - `--width` and `--height` allow targeting alternate dimensions (defaults: 20×28).
 - `--interpolation` selects the resize filter (`nearest`, `bilinear`, `bicubic`, `lanczos`).
 - `--overwrite` clears existing output folders for the same media name.
+- Without `--output`, frames are written to `media_processor/output/<media-name>/`.
 - `--format` chooses frame export format (`png` for images, `pgm` for ASCII grayscale values).
