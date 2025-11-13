@@ -31,4 +31,21 @@ In Python, tech stack can be something like:
 - PyQt6 or Tkinter for GUI 
 - bleak for Bluetooth Low Energy handling
 
+
 At the end of the day I don't think we need rock solid bulletproofing - if the user uploads a variable framerate video that's their fault and im not dealing with that, for example. If we have gifs and short videos working I'll be very happy
+
+
+## Media Processor CLI
+
+The `media_processor/main.py` CLI (runnable via `python -m media_processor.main`) converts supported media files (images, GIFs, videos) into 28x20 grayscale frame sequences suitable for the LED matrix. Frames are exported as PNG files alongside a metadata manifest.
+
+```bash
+source venv/bin/activate
+python -m media_processor.main path/to/input.mp4 --output ./output --overwrite
+```
+
+Options:
+- `--width` and `--height` allow targeting alternate dimensions (defaults: 20×28).
+- `--interpolation` selects the resize filter (`nearest`, `bilinear`, `bicubic`, `lanczos`).
+- `--overwrite` clears existing output folders for the same media name.
+- `--format` chooses frame export format (`png` for images, `pgm` for ASCII grayscale values).
